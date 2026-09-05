@@ -1,8 +1,9 @@
 # TwinSyncScroll
 
-An offline JS web app that lets you scroll two text fields in sync for side-by-side reading and review.
+An offline JS web app that lets you scroll two text fields in sync for side-by-side reading and review. It's designed side-by-side comparison of documents that are mostly similar but occasionally drift out of alignment. Scroll either pane independently when needed, then use the center gutter to move both documents by the same number of logical lines.
 
-It is designed for documents that are mostly similar but occasionally drift out of alignment. Scroll either pane independently when needed, then use the center gutter to move both documents by the same number of logical lines.
+This app works offline and you own it forever. No ads. No registration. No subscriptions. No trackers. Just right-click and save the `.html` page.
+
 
 **Live app:** https://inventwithpython.com/twinsyncscroll
 
@@ -15,19 +16,9 @@ It is designed for documents that are mostly similar but occasionally drift out 
 - **Sync Cursors to Top** places each pane's remembered cursor line at the top of that pane.
 - Draggable center divider for resizing the panes.
 - Responsive stacked layout on narrow screens.
-- Word wrap can be enabled or disabled independently for each pane; enabled by default.
 - Syntax highlighting with automatic detection or manual selection.
-- Open any plaintext file with the file picker or drag-and-drop.
-- Download either pane using its editable filename field.
-- Per-pane search and replace, undo, redo, and select all.
-- Per-pane line, column, line count, character count, and selection statistics.
 - Autosaves editor state to `localStorage` and restores it on the next visit.
-- Automatic light/dark appearance based on the browser or operating-system preference.
-- 500 ms delayed button tooltips.
-- Accessible labels, keyboard operation, focus indication, and high-contrast light/dark themes.
 - 40 interface languages, including right-to-left layout support.
-- Share button that copies a description and app link to the clipboard.
-- No network connection required after the HTML file has been saved locally.
 
 ## Quick Start
 
